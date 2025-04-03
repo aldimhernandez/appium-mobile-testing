@@ -1,0 +1,38 @@
+# Configuración de VS Code
+.vscode/
+
+# Dependencias de Node.js
+node_modules/
+package-lock.json
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Archivos de salida de pruebas
+allure-results/
+allure-report/
+test-output/
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de Appium
+*.tmp
+*.lock
+
+# Archivos de drivers
+chromedriver-mobile/
+chromedriver.log
+
+# Archivos de compilación de TypeScript
+dist/
+*.tsbuildinfo
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
