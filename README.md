@@ -26,9 +26,9 @@ Antes de comenzar, asegúrate de tener instalados los siguientes requerimientos:
    ```
 5. Los drivers de appium contienen **appium doctor** integrado por lo que al instalar por ejemplo, appium-uiautomator2-driver, puedes ejecutar doctor con el siguiente comando:
 
-```bash
-appium driver doctor uiautomator2
-```
+   ```bash
+   appium driver doctor uiautomator2
+   ```
 
 ## Instalación
 
@@ -43,25 +43,25 @@ Sigue estos pasos para configurar el proyecto:
 
 2. Instala las dependencias del proyecto
 
-```bash
-   npm i
-```
+   ```bash
+      npm i
+   ```
 
 ## Configuración
 
-El archivo de configuración principal es `wdio.conf.ts`. Asegúrate de que las capabilities estén configuradas correctamente para tu dispositivo/emulador. Por ejemplo:
+1. El archivo de configuración principal es `wdio.conf.ts`. Asegúrate de que las capabilities estén configuradas correctamente para tu dispositivo/emulador. Por ejemplo:
 
-```typescript
-capabilities: [{
-    platformName: 'Android',
-    browserName: 'Chrome',
-    browserVersion: '128.0.6613',
-    'appium:deviceName': 'Android GoogleAPI Emulator',
-    'appium:platformVersion': '16.0',
-    'appium:automationName': 'UiAutomator2',
-    'appium:chromedriverExecutableDir': './chromedriver-mobile',
-}],
-```
+   ```bash
+         capabilities: [{
+             platformName: 'Android',
+             browserName: 'Chrome',
+             browserVersion: '128.0.6613',
+             'appium:deviceName': 'Android GoogleAPI Emulator',
+             'appium:platformVersion': '16.0',
+             'appium:automationName': 'UiAutomator2',
+             'appium:chromedriverExecutableDir': './chromedriver-mobile',
+         }],
+   ```
 
 ## Ejecución de pruebas
 
@@ -92,7 +92,7 @@ capabilities: [{
 
 ## Solución de posibles errores
 
-3. Si al ejecutar los test encuentras errores con las versiones de chrome, asegúrate de que este habilitada la descarga automática de versiones de chrome:
+Si al ejecutar los test encuentras errores con las versiones de chrome, asegúrate de que este habilitada la descarga automática de versiones de chrome:
 
 ![alt text](assets/image.png)
 
@@ -105,5 +105,5 @@ También puedes configurar Appium server para habilitar la descarga automática 
 ## Recursos adicionales
 
 - [Documentación de Appium](https://appium.io/docs/en/latest/)
-- [Documentación de WebdriverIO](https://webdriver.io/docs/gettingstarted)
+- [Documentación de WebdriverIO](https://webdriver.io/es/)
 - [Descargas de Chromedriver](https://chromedriver.chromium.org/downloads)
