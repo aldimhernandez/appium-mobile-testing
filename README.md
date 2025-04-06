@@ -94,7 +94,7 @@ capabilities: [{
 
 3. Si al ejecutar los test encuentras errores con las versiones de chrome, asegúrate de que este habilitada la descarga automática de versiones de chrome:
 
-![alt text](image.png)
+![alt text](assets/image.png)
 
 También puedes configurar Appium server para habilitar la descarga automática de Chromedriver (opcional):
 
@@ -104,6 +104,6 @@ También puedes configurar Appium server para habilitar la descarga automática 
 
 ## Recursos adicionales
 
-- [Documentación de Appium](https://appium.io/docs/en/about-appium/intro/)
+- [Documentación de Appium](https://appium.io/docs/en/latest/)
 - [Documentación de WebdriverIO](https://webdriver.io/docs/gettingstarted)
 - [Descargas de Chromedriver](https://chromedriver.chromium.org/downloads)
