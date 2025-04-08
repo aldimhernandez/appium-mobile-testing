@@ -2,6 +2,10 @@
 
 Este proyecto utiliza **Appium** y **WebdriverIO** para realizar pruebas automatizadas en dispositivos móviles Android con el navegador Chrome.
 
+Realice este proyecto para explorar Appium y WebDriverIO con TypeScript. 
+Instale todo siguiendo la documentación oficial, implemente el setup basico de wdio y todo lo necesario para levantar las pruebas de ejemplo. 
+Resolví errores de compatibilidad de drivers de Chrome y cambie el selector para que pasara el test de ejemplo que estaba fallando.
+
 ## Requisitos previos
 
 Antes de comenzar, asegúrate de tener instalados los siguientes requerimientos:
